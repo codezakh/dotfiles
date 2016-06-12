@@ -25,7 +25,7 @@
 ;; Use the opam installed utop
 (setq utop-command "opam config exec -- utop -emacs")
 ;;for tuareg mode
-(load "/Users/zaidkhan/.opam/system/share/emacs/site-lisp/tuareg-site-file")
+(load "/home/zaid/.opam/4.02.3/share/emacs/site-lisp/tuareg-site-file")
 ;;utop integration with the buffer
 (autoload 'utop-minor-mode "utop" "Minor mode for utop" t)
 (add-hook 'tuareg-mode-hook 'utop-minor-mode)

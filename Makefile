@@ -4,8 +4,8 @@
 
 all: VIM EMACS IPYTHON OCAML BASH GVIM TMUX
 
-STOW_DIR=/usr/local/stow
-U_TARGET=~/Source/dotfiles
+STOW_DIR=~/Source/dotfiles
+U_TARGET=$(HOME)
 
 TMUX:
 	stow -t $(U_TARGET) tmux

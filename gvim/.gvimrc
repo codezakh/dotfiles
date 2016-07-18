@@ -17,5 +17,5 @@ set ts=4 sw=4 et
 let g:indent_guides_guide_size = 1
 let g:indent_guides_auto_colors = 0
 autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd guibg=#573847 ctermbg=3
-autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=#8AD60 ctermbg=4
+autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=#8A6D60 ctermbg=4
 autocmd VimEnter * IndentGuidesEnable
